@@ -32,4 +32,4 @@ jobs:
     # 4. รันการทดสอบ
     - name: Run tests
       run: |
-        python -m unittest discover  # ใช้ unittest เพื่อรันการทดสอบทั้งหมด
+        python -m unittest discover tests
